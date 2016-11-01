@@ -1,6 +1,9 @@
 package com.kevalpatel.whatsappdatabaseremover;
 
-import android.util.Log;
+import android.Manifest;
+import android.content.pm.PackageManager;
+import android.support.v4.app.ActivityCompat;
+import android.widget.Toast;
 
 import com.google.android.gms.gcm.GcmTaskService;
 import com.google.android.gms.gcm.TaskParams;
@@ -20,8 +23,14 @@ public class DatabaseRemoverService extends GcmTaskService {
     @Override
     public int onRunTask(TaskParams taskParams) {
 
-        Log.d("task runner", "service running");
+        //check for the permission
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                == PackageManager.PERMISSION_GRANTED){
 
+
+        }else {
+            Toast.makeText(this, "Write external storage permission not provided.",Toast.LENGTH_LONG).show();
+        }
         return 0;
     }
 }

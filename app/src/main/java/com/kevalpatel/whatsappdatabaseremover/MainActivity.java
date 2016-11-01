@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity {
                 .setService(DatabaseRemoverService.class)
                 .setTag(TASK_DB_REMOVER_TAG)
                 .setRequiresCharging(true)
-                .setPeriod(30L)  //twice a day
+                .setPeriod(43200L)  //twice a day
                 .setPersisted(true)
-                .setFlex(10L)     //half an hour
+                .setFlex(1800L)     //half an hour
                 .setUpdateCurrent(true)
                 .build();
 

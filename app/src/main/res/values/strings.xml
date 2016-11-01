@@ -3,4 +3,5 @@
     <string name="intro_text">Whatsapp database remover id monitoring your phone memory to remove
         redundant datadatabase backups and freeup your memory.
     </string>
+    <string name="whats_app_database_path">/WhatsApp/Databases</string>
 </resources>

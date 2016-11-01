@@ -14,7 +14,7 @@
 - That's it. You saved you memory. :-)
 
 ##What if I find an issue?
-- You can report any issue you found (here)[https://github.com/kevalpatel2106/whatsapp-database-remover/issues].
+- You can report any issue you found [here](https://github.com/kevalpatel2106/whatsapp-database-remover/issues).
 - Make sure you provide detailed description of your.
 
 ##Contribute:

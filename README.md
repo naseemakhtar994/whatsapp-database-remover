@@ -1,6 +1,6 @@
 # whatsapp-database-remover
 
-[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/kevalpatel2106/UserAwareVideoView) 
+[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/kevalpatel2106/UserAwareVideoView) [![API](https://img.shields.io/badge/API-15%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=15)
 
 ##What is this application for?
 - WhatsApp creates a back-up of the existing messages every day at around 2 a.m. It stores that into the phone's external storage under /Databases folder. WhatsApp keeps databases for last 7 days. All those databases are redundant and not required while restoring the WhatsApp from backup. Sometimes those redundant databases users over a half GB in your internal storage. For the phones with less internal storage (e.g. Motorola Moto E 1st generation which has 4 GB of the internal storage), this is a huge problem.
@@ -14,7 +14,7 @@
 - That's it. You saved you memory. :-)
 
 ##What if I find an issue?
-- You can report any issue you found here)[https://github.com/kevalpatel2106/whatsapp-database-remover/issues].
+- You can report any issue you found (here)[https://github.com/kevalpatel2106/whatsapp-database-remover/issues].
 - Make sure you provide detailed description of your.
 
 ##Contribute:

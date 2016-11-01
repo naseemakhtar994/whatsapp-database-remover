@@ -15,3 +15,31 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+#Keep name of all the classes
+-keepnames class ** { *; }
+
+-dontskipnonpubliclibraryclasses
+-forceprocessing
+-optimizationpasses 5
+-verbose
+
+#support -v7 design lib
+-dontwarn android.support.design.**
+-keep class android.support.design.** { *; }
+-keep interface android.support.design.** { *; }
+-keep public class android.support.design.R$* { *; }
+
+-keep class !android.support.v7.internal.view.menu.**,android.support.** {*;}
+
+#Keep anotations there
+-keepattributes *Annotation*
+
+#remove log class
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+    public static *** v(...);
+    public static *** i(...);
+    public static *** w(...);
+    public static *** e(...);
+}

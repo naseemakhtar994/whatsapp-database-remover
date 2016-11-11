@@ -8,7 +8,7 @@
 - WhatsApp-Database-Remover keeps **msgstore.db** file as this file is important while restoring the messages from backup if you delete all the messages from your WhatsApp accidentally.
 
 ##Where can I find application?
-- You can download the latest application file from [here](https://github.com/kevalpatel2106/whatsapp-database-remover/releases/tag/v1.0).
+- [![Get it on Google Play](/assets/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.kevalpatel.whatsappdatabaseremover)
 - Install the application. (Make sure you enabled to allow external sources for the application installation in Settings.)
 - Open the application and grant the required permission if asked.
 - That's it. You saved you memory. :-)
